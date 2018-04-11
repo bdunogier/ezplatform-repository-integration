@@ -1,0 +1,4 @@
+parameters:
+    storage_dir: var/ezdemo_site/storage
+    legacy_dsn: "%env(DATABASE)%"
+    ezpublish.kernel.root_dir: "%kernel.root_dir%/../vendor/ezsystems/ezpublish-kernel"
